@@ -1,0 +1,23 @@
+# LECTURE ANALYSIS: Data Matrix, Transaction Data, and Graph Data
+## Video Segment: 117:30 - 120:49
+
+[SLIDE DESCRIPTION]
+The slide shows a breakdown of a quiz, with statistics like High Score, Average Score, and Standard Deviation. It also displays a histogram of scores and a question breakdown.
+
+[TRANSCRIPT - 117:38]
+So, I'm going to skip this part because the time is running out. So, again, here is just like a summary for the data matrix data set, right here. So then, uh, what is the characteristic about, uh, uh, about data matrix data set? First, you need to know they are consist of numerical value. So, they can be tabular format. And then they usually in this table form. So we call them tabular formats. And they don't have unstructured data. They don't. They will not have unstructured data. And they can utilize a lot of statistic method and machine learning way to working with that. If you took machine learning course, usually they assume the data already been convert into data matrix. They usually consider about that. So a lot of machine learning are starting from matrix operation. So then because of it, your data need to go through the preprocessing to convert them to corresponding data matrix. But what about the document data? Then they are not structured data. They can contain the paragraph, sentence and word. In order for you to convert them to a matrix side, but then originally they are paragraph and the sentence and word. And then they might need some, uh, natural language processing technique for you to convert them. And like after 2013, we have large language model, we can utilize that way to convert it. And then we usually before 2013, people try to talking about then it's called information retrieval. So you need some text analysis, try to working with that. And that is difference between the document and data and data matrix data.
+
+[SLIDE DESCRIPTION]
+The slide lists characteristics of data sets, including numerical values, tabular format, and suitability for statistical analysis and machine learning. It contrasts this with document data, which can contain text and requires NLP techniques for conversion.
+
+[TRANSCRIPT - 119:30]
+Next, we have transaction data. Transaction data are particularly important if you want working with association rule, association rule. So for example, you went to 7-11, you purchase certain item. And those item will be kept in one transaction. And why we call them transaction is because how the item appear in the transaction. We don't care about the order. So the bread, Coke, milk, if you do milk, Coke, Coke and bread, they are the same. Okay, so then we don't care about order in transaction.
+
+[SLIDE DESCRIPTION]
+This slide introduces Transaction Data, defining it as a special type of record where each transaction involves a set of items. An example table shows transactions with TID, Date, and Items (e.g., Bread, Coke, Milk). The text emphasizes that the order of items within a transaction does not matter.
+
+[TRANSCRIPT - 120:20]
+And then we also have the graph data. So, for example, the world wide web, they are graph data. So the graph data means certain graph analysis. Uh, if you interested in there, you actually can, uh, you can took some courses, like the, uh, graph network, thing like that. And then we're talking so much about how to working with that. Okay. And then in chemical, uh, compound, like
+
+[SLIDE DESCRIPTION]
+The final slide discusses Graph Data, using the World Wide Web as an example. It mentions that graph data involves graph analysis and suggests further courses on graph networks. It also briefly touches upon chemical compounds.
