@@ -1,0 +1,92 @@
+[
+  {
+    "config_name": "twitter_emotion",
+    "model_name": "cardiffnlp/twitter-roberta-base-emotion",
+    "eval_macro_f1": 0.5203733506853124,
+    "elapsed_time_minutes": 49.51822051207225,
+    "submission_path": "KaggleData/exp_twitter_emotion_20251118_150957/submission_twitter_emotion.csv",
+    "config": {
+      "model_name": "cardiffnlp/twitter-roberta-base-emotion",
+      "max_length": 256,
+      "epochs": 8,
+      "batch_size": 16,
+      "learning_rate": 2e-05,
+      "description": "Twitter情感分類專用模型，7個情感預訓練"
+    }
+  },
+  {
+    "config_name": "emotion_distilroberta",
+    "model_name": "j-hartmann/emotion-english-distilroberta-base",
+    "eval_macro_f1": 0.5078289167136911,
+    "elapsed_time_minutes": 30.419307780265807,
+    "submission_path": "KaggleData/exp_emotion_distilroberta_20251118_155929/submission_emotion_distilroberta.csv",
+    "config": {
+      "model_name": "j-hartmann/emotion-english-distilroberta-base",
+      "max_length": 256,
+      "epochs": 8,
+      "batch_size": 16,
+      "learning_rate": 2e-05,
+      "description": "6個情感類別專用DistilRoBERTa"
+    }
+  },
+  {
+    "config_name": "roberta_base",
+    "model_name": "roberta-base",
+    "eval_macro_f1": 0.5108598802012533,
+    "elapsed_time_minutes": 49.5385879278183,
+    "submission_path": "KaggleData/exp_roberta_base_20251118_162954/submission_roberta_base.csv",
+    "config": {
+      "model_name": "roberta-base",
+      "max_length": 256,
+      "epochs": 8,
+      "batch_size": 16,
+      "learning_rate": 2e-05,
+      "description": "RoBERTa基礎模型，通用性強"
+    }
+  },
+  {
+    "config_name": "roberta_large",
+    "model_name": "roberta-large",
+    "eval_macro_f1": 0.5224522485743587,
+    "elapsed_time_minutes": 141.4423692504565,
+    "submission_path": "KaggleData/exp_roberta_large_20251118_171926/submission_roberta_large.csv",
+    "config": {
+      "model_name": "roberta-large",
+      "max_length": 256,
+      "epochs": 6,
+      "batch_size": 8,
+      "learning_rate": 1e-05,
+      "description": "RoBERTa大模型，效果最好但最慢"
+    }
+  },
+  {
+    "config_name": "deberta_base",
+    "model_name": "microsoft/deberta-v3-base",
+    "eval_macro_f1": 0.5017700803760725,
+    "elapsed_time_minutes": 77.7856056690216,
+    "submission_path": "KaggleData/exp_deberta_base_20251118_194053/submission_deberta_base.csv",
+    "config": {
+      "model_name": "microsoft/deberta-v3-base",
+      "max_length": 256,
+      "epochs": 8,
+      "batch_size": 12,
+      "learning_rate": 2e-05,
+      "description": "DeBERTa v3，當前SOTA模型之一"
+    }
+  },
+  {
+    "config_name": "distilroberta_fast",
+    "model_name": "distilroberta-base",
+    "eval_macro_f1": 0.49476066215033615,
+    "elapsed_time_minutes": 10.20794492562612,
+    "submission_path": "KaggleData/exp_distilroberta_fast_20251118_205840/submission_distilroberta_fast.csv",
+    "config": {
+      "model_name": "distilroberta-base",
+      "max_length": 128,
+      "epochs": 5,
+      "batch_size": 32,
+      "learning_rate": 3e-05,
+      "description": "快速實驗用，較小模型"
+    }
+  }
+]
